@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main_block">
+        <section class="left_section">
+                <img class="photo" src="image/me.jpg">
+                <h1 class="name">Danil KoKhan</h1>
+            <h1 class="info">About me</h1>
+            <p class="info_text">
+                I like to learn new things, I like to develop myself.<br>
+                This course is my second round and<br>
+                I hope to gain even more experience in writing code.
+            </p>
+            <h1 class="skills_title">Skills</h1>
+            <p class="skills_text">
+                At school I studied Pascal ABS, Flash.<br>
+                In the previous course, I studied HTML,JS,CSS.
+            </p>
+            <h1 class="contacts">My contact info:</h1>
+            <ul>
+                <li>number telephone:+375259278658;</li>
+                <li><a href="https://vk.com/id302059916">VK</a></li>
+            </ul>
+        </section>
+
+
+        <section class="right_section">
+            <h1 class="code_title">Sample code</h1>
+            <code>
+                let memory = {};<br>
+                let resultDebtors = [];<br>
+                 for (let i = 0; i < myDebtors.length; i++) {<br>
+                  let doljnik = myDebtors[i].name;<br>
+                  if (memory[doljnik] === undefined) {<br>
+                  resultDebtors.push(myDebtors[i]);<br>
+                  memory[doljnik] = resultDebtors.length - 1;<br>
+                } else {<br>
+                  const originalIndex = memory[doljnik];<br>
+                  resultDebtors[originalIndex].money += myDebtors[i].money;<br>
+                }<br>
+                }
+            </code>
+            <h1 class="experience_title">Experience</h1>
+            <p class="experience_text">
+                I took part in team projects<br>
+                where we developed COVID-19-dashboard,<br>
+                as well as RSClone, where we made<br>
+                a website called Canva.
+            </p>
+            <h1 class="profession_title">Education</h1>
+            <p class="profession_text">
+                I am a railway worker by education.<br>
+                Passed last year's course RSSchool.<br>
+            </p>
+            <h1 class="English_title">English skill</h1>
+            <p class="English_text">
+                Now I go to English language courses.<br>
+                At the moment I have a basic level of English.
+            </p>
+        </section>
+    </main>
+</body>
+</html>
